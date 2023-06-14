@@ -1,0 +1,15 @@
+.footer {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background-color: #000000;
+}
+.footer-content {
+  gap: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B7B7B7;
+}/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,15 @@
+.footer {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color: #000000;
+   
+    &-content {
+        gap: 10px;
+        width: fit-content;
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #B7B7B7;
+    }
+}

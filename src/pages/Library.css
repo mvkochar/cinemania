@@ -1,0 +1,46 @@
+.library-main {
+  padding-top: 169px;
+  padding-bottom: 249px;
+  background: linear-gradient(79.39deg, #111111 32.37%, rgba(17, 17, 17, 0) 72.02%), url("/public/images/hero.png") no-repeat;
+}
+
+.library-select {
+  padding-top: 80px;
+  padding-bottom: 48px;
+  padding-left: 32px;
+  background-color: #000000;
+}
+.library-select-fm select {
+  width: 260px;
+  padding-top: 14.5px;
+  padding-bottom: 14.5px;
+  padding-left: 20px;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B7B7B7;
+  cursor: pointer;
+}
+
+.library-action {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #000000;
+}
+.library-action button {
+  display: block;
+  width: 134px;
+  margin: 0 auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: linear-gradient(141.22deg, #FFC226 9.4%, #F84119 91.91%);
+  border-radius: 74px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #111111;
+  cursor: pointer;
+}/*# sourceMappingURL=Library.css.map */

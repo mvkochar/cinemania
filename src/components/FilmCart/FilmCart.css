@@ -1,0 +1,23 @@
+.film-cart {
+  width: 395px;
+  height: 574px;
+  padding-top: 500px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: flex-end;
+  cursor: pointer;
+}
+.film-cart-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.film-cart-genre {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=FilmCart.css.map */

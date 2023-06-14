@@ -1,0 +1,198 @@
+.cinemania-main {
+    width: 100%;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    padding-left: 32px;
+    background: linear-gradient(83.16deg, #111111 36.85%, rgba(17, 17, 17, 0) 60.05%), url("/public/images/home-main1.png") no-repeat;
+
+    &-title {
+        width: 464px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 75px;
+        color: #FFFFFF;
+    }
+
+    &-desc {
+        width: 464px;
+        margin-top: 16px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F8F8F8;
+    }
+
+    button {
+        display: block;
+        width: 130px;
+        margin-top: 32px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background: linear-gradient(141.22deg, #FFC226 9.4%, #F84119 91.91%);
+        border-radius: 74px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #111111;
+        cursor: pointer;
+    }
+}
+
+.cinemania-trends {
+    padding-top: 80px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: #000000;
+
+    &-title {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 33px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &-action {
+        display: block;
+        background-color: transparent;
+        border: 0;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 33px;
+        color: #F87719;
+        cursor: pointer;
+
+    }
+
+    &-box {
+        margin-top: 28px;
+        gap: 16px;
+    }
+}
+
+.cinemania-upcoming {
+    padding-top: 60px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: #000000;
+
+    &-title {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 33px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &-box {
+        margin-top: 28px;        
+    }
+
+    .upcoming-info {
+        &-title {
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        &-box {
+            margin-top: 28px;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        &-item {
+            gap: 58px;
+
+            &:nth-child(1) {
+                .info-item-content {
+                    color: #F87719;
+                }
+            }
+
+            &:nth-child(2) {
+                .info-item-content {
+                    gap: 4px;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #F8F8F8;
+                }
+
+               .item-content-value {
+                    padding: 1px 8px;
+                    background: #FFFFFF;
+                    border-radius: 5px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 16px;
+                    text-transform: uppercase;
+                    color: #111111;
+               }
+            }
+        }
+
+        &-desc {
+            margin-top: 20px;
+        }
+
+       
+    }
+
+    .info-item {
+        &-title {
+            width: 93px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #B7B7B7;
+        }
+
+        &-content {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+
+      
+    }
+
+    .info-desc {
+        &-title {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-transform: uppercase;
+            color: #B7B7B7;
+        }
+
+        &-content {
+            width: 390px;
+            margin-top: 16px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #F8F8F8;
+        }
+    }
+
+    button {
+        display: block;
+        width: 155px;
+        margin-top: 32px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background: linear-gradient(141.22deg, #FFC226 9.4%, #F84119 91.91%);
+        border-radius: 74px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #111111;
+        cursor: pointer;
+    }
+
+
+}

@@ -1,0 +1,57 @@
+.cinema {
+    padding-bottom: 62px;
+    padding-left: 69px;
+    background: #000000;
+
+    &-title {
+        width: 639px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 75px;
+        color: #FFFFFF;
+    }
+
+    &-rating {
+        margin-top: 16px;
+    }
+
+    &-desc {
+        width: 367px;
+        margin-top: 28px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F8F8F8;
+    }
+
+    &-actions {
+        margin-top: 36px;
+        gap: 14px;
+
+        button {
+            display: block;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border-radius: 74px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            cursor: pointer;
+
+            &:nth-child(1) {
+                width: 139px;
+                background: linear-gradient(141.22deg, #FFC226 9.4%, #F84119 91.91%);
+                color: #111111;
+            }
+
+            &:nth-child(2) {
+                width: 138px;
+                background-color: transparent;
+                border: 1px solid #FFFFFF;
+                font-weight: 500;
+                color: #FFFFFF;
+            }
+
+        }
+    }
+}
