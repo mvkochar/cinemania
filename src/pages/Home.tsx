@@ -2,14 +2,23 @@ import React from 'react'
 import './Home.css'
 import FilmCart from '../components/FilmCart/FilmCart'
 import MainCinema from '../components/MainCinema/MainCinema'
-import { HomeMoviesArr} from '../components/MoviesArr/MoviesArr'
+import { HomeMoviesArr, MoviesArr} from '../components/MoviesArr/MoviesArr'
 
 const Home = () => {
 
     const [filmId, setFilmId] = React.useState(0)
+    const [showAll, setShowAll] = React.useState(false)
 
     const handleFilmId = (id: number) => {
         setFilmId(id)
+    }
+
+    const handleShowAll = ()=> {
+        setShowAll((prevState)=> {
+            return (
+                !prevState
+            )
+        })
     }
 
     return (
@@ -57,11 +66,24 @@ const Home = () => {
             <div className="cinemania-trends">
                 <div className='d-f jc-sb'>
                     <h3 className="cinemania-trends-title">Weekly trends</h3>
-                    <button className='cinemania-trends-action'>See all</button>
+                    <button className='cinemania-trends-action' onClick={handleShowAll}>{showAll ? "See less" : " See all"}</button>
                 </div>
                 <div className="cinemania-trends-box d-f">
                     {
-                        HomeMoviesArr. map((movie) => (
+                        showAll ?
+                        MoviesArr.map((movie) => (
+                            <FilmCart
+                                id={movie.id}
+                                image={movie.image}
+                                title={movie.title}
+                                genre={movie.genre}
+                                year={movie.year}
+                                rating={movie.rating}
+                                handleFilmId={handleFilmId}
+                            />
+                        ))
+                        :    
+                        HomeMoviesArr.map((movie) => (
                             <FilmCart
                                 id={movie.id}
                                 image={movie.image}

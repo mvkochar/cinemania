@@ -16,8 +16,9 @@
   color: #FFFFFF;
 }
 .film-cart-genre {
+  margin-top: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-  color: #FFFFFF;
+  color: #B7B7B7;
 }/*# sourceMappingURL=FilmCart.css.map */

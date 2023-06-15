@@ -66,7 +66,9 @@
 
     &-box {
         margin-top: 28px;
-        gap: 16px;
+        flex-wrap: wrap;
+        column-gap: 15px;
+        row-gap: 32px;
     }
 }
 
