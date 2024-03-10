@@ -25,7 +25,7 @@ const Catalog = () => {
             <div className="catalog-search">
                 <form action="" className="catalog-search-fm d-f">
                     <input type="text" name='searchQuery' placeholder='Search' />
-                    <button><img src="images/search.png" alt="search" /></button>
+                    <button type='button'><img src="images/search.png" alt="search" /></button>
                 </form>
             </div>
             <div className="catalog-box d-f">

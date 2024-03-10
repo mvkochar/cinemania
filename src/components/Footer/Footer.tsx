@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-content d-f">
         <div>&copy; 2023 | All Rights Reserved | Developed with </div>
         <div><img src="images/love.png" alt="love" /></div>
-        <div>by GoIT Students</div>
+        <div>by SGK</div>
       </div>
     </footer>
   )
